@@ -1,0 +1,119 @@
+
+/*fondo general*/
+.bloque{
+padding: 60px;
+background-image: url('./engranajes.webp');
+background-size: cover;
+background-repeat: no-repeat;
+font-size: 20px;
+}
+
+
+/*bloque del titulo*/
+.bloque2 { 
+padding: 20px;
+background-color: #1ABC9C;
+color: aliceblue;
+font-size: 25px;
+text-shadow: 4px 4px 5px rgb(24, 23, 23);
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 55px;
+border-radius: 10px;
+border: 1px solid #F1C40F;
+}
+
+
+/*bloque del sub titulo*/
+.sub{
+font-size: 20px;
+color: rgb(245, 244, 244);
+padding: 0px;
+background-color: #1ABC9C;
+text-align: center;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+
+
+/*Iconos*/
+a{
+color: #1ABC9C;    
+}
+
+
+a:hover{
+color: #F1C40F;
+}
+
+
+.fa-solid {
+margin-top: 50px;
+padding: 40px;
+background-color: black;
+border-radius: 50%;
+font-size: 30px;
+box-shadow: 5px 5px 16px white;
+}
+
+
+.fa-cog{
+margin-top: 50px;
+padding: 40px;
+background-color: black;
+border-radius: 50%;
+font-size: 30px;
+box-shadow: 5px 5px 16px white;
+}
+
+
+.fa-code{
+margin-top: 50px;
+padding: 40px;
+background-color: black;
+border-radius: 50%;
+font-size: 30px;
+box-shadow: 5px 5px 16px white;
+}
+
+
+/* bloque de los iconos*/
+.texto{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+.item{
+width: 600px;
+height: 400px;
+margin: 10px;
+color: aliceblue;
+text-align: center;
+box-shadow: 0px 0px 10px #F1C40F;
+border-radius: 30px;
+background:linear-gradient(to top, rgb(19, 15, 15),#1ABC9C);
+}
+
+
+.item h3{
+margin: 0;
+margin-top: 50px; 
+text-decoration: underline;
+}
+
+
+.item p {
+margin: 0;  
+text-align: justify;  
+text-align: center;
+transition: opacity 1s ease-in;
+opacity: 0;
+} 
+
+.item:hover p{
+opacity: 1;
+}
+
+
+
